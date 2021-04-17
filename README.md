@@ -1,4 +1,5 @@
 # notes-and-tasks
+## Work in progress
 simple notes and tasks app, with realtime sync between app and chrome extension
 
 ## Tech stack used
