@@ -1,0 +1,2 @@
+const NOTES_FETCHED ="NOTES_FETCHED"
+export default NOTES_FETCHED

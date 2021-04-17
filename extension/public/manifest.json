@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Notes",
+  "description": "Simple Notes app",
+  "version": "0.0.1",
+
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Create notes"
+  },
+  "icons": {
+    "16": "logo-small.png",
+    "48": "logo-small.png",
+    "128": "logo-small.png"
+  },
+  "content_security_policy": "script-src 'self' 'sha256-p5hOtlld76OubQRjuoOzFkH1phfMCtQyYciqJYR0hgk='; object-src 'self'",
+  "permissions": [
+    "clipboardWrite",
+    "clipboardRead",
+    "contextMenus"
+  ],
+  "background": {
+    "scripts": ["app/background.js"]
+  }
+}
