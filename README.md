@@ -11,4 +11,4 @@ simple notes and tasks app, with realtime sync between app and chrome extension
 ## Setup
 
 ### Firebase
-The chrome extension and the mobile app uses firebase. Create a firebase project and paste your firebase config in src/services/firebaseConf.js inside app and extension directories
+The chrome extension and the mobile app uses firebase. Create a firebase project and paste your firebase config in services/firebaseConf.js inside app and extension directories
